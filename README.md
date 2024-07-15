@@ -8,8 +8,8 @@
 
 ## Go-lang
 ``` Makefile
-include .env
 
+include .env
 .DEFAULT_GOAL := build
 
 build:
