@@ -1,4 +1,5 @@
 include .env
+.DEFAULT_GOAL := build
 
 build:
 	@echo "Building..."
