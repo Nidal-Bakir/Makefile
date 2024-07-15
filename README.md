@@ -10,6 +10,8 @@
 ``` Makefile
 include .env
 
+.DEFAULT_GOAL := build
+
 build:
 	@echo "Building..."
 	@go build -o main cmd/api/main.go
